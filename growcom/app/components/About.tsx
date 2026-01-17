@@ -42,7 +42,7 @@ export default function About() {
                         </h2>
                         <div className="mt-6 space-y-6 text-lg leading-8 text-gray-300">
                             <p>
-                                Hola, soy [Tu Nombre]. He ayudado a decenas de emprendedores a escalar sus negocios sin depender de las tácticas tradicionales que ya no funcionan.
+                                Hola, soy xxx . He ayudado a decenas de emprendedores a escalar sus negocios sin depender de las tácticas tradicionales que ya no funcionan.
                             </p>
                             <p>
                                 Mi misión es simple: darte la libertad y los ingresos que mereces con un sistema predecible.
