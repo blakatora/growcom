@@ -17,19 +17,18 @@ export default function CalendlySection() {
     }, []);
 
     return (
-        <section id="calendly" className="bg-black py-24">
+        <section id="calendly" className="bg-white py-24">
             <div className="mx-auto max-w-4xl px-4 text-center">
-                <h2 className="mb-4 text-3xl font-bold text-white sm:text-4xl">
+                <h2 className="mb-4 text-3xl font-bold text-gray-900 sm:text-4xl">
                     ¿Listo para escalar?
                 </h2>
-                <p className="mb-12 text-lg text-gray-400">
+                <p className="mb-12 text-lg text-gray-600">
                     Selecciona una hora a continuación para hablar de tu estrategia de crecimiento.
                 </p>
 
                 <div
-                    className="calendly-inline-widget w-full min-w-[320px] h-[750px] bg-white rounded-lg overflow-hidden"
-                    data-url="https://calendly.com/"
-                    style={{ minWidth: '320px', height: '750px' }}
+                    className="calendly-inline-widget w-full min-w-[320px] h-[750px] rounded-lg overflow-hidden"
+                    data-url="https://calendly.com/pepelora-growcom/new-meeting?hide_landing_page_details=1&hide_gdpr_banner=1&locale=es" style={{ minWidth: '320px', height: '1000px' }}
                 />
             </div>
         </section>
