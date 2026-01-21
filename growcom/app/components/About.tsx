@@ -11,13 +11,33 @@ export default function About() {
                         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-blue-600">
                             Quienes somos
                         </h2>
-                        <p className="mt-6 text-lg leading-8 text-gray-600">
-                            En Growcom, nos dedicamos a optimizar y profesionalizar negocios digitales.
-                            No somos una agencia tradicional; somos tu socio de infraestructura estratégica.
-                            Nuestro enfoque se basa en ingeniería de procesos y escalabilidad real.
-                        </p>
-                        <div className="mt-8">
-                            <div className="h-1 w-20 rounded bg-gradient-to-r from-blue-600 to-indigo-600"></div>
+                        <div className="mt-6 space-y-4 text-lg leading-8 text-gray-600">
+                            <p>
+                                En Growcom no trabajamos como una agencia ni como un freelance.
+                                Somos <span className="font-bold text-gray-900">Growth Partners</span>: entramos en el negocio como socios de crecimiento y nos hacemos responsables del resultado.
+                            </p>
+                            <p>
+                                Nuestro enfoque se basa en una <span className="font-bold text-gray-900">fórmula de crecimiento probada</span>.
+                                Primero generamos <span className="font-bold text-gray-900">contenido viral para captar atención real</span>.
+                                Después desarrollamos <span className="font-bold text-gray-900">contenido de alto valor</span>, adaptado a cada producto y a cada marca, porque no todos los e-commerce funcionan igual.
+                                Y, solo entonces, construimos una <span className="font-bold text-gray-900">oferta de adquisición perfectamente estructurada</span> para convertir esa atención en clientes.
+                            </p>
+                            <p>
+                                Todo esto se apoya en <span className="font-bold text-gray-900">sistemas de automatización digital</span> que nos permiten escalar la captación, optimizar la conversión y aumentar la retención de clientes en el tiempo.
+                            </p>
+                            <p>
+                                Trabajamos con un <span className="font-bold text-gray-900">modelo 360</span>, lo que significa que no nos limitamos a una plataforma ni a servicios concretos.
+                                Analizamos y activamos todos los puntos clave del crecimiento del negocio, integrando estrategia, contenido, adquisición y retención dentro de un mismo sistema.
+                            </p>
+                            <p>
+                                Nuestra forma de fijar precios también es diferente:
+                                no cobramos por tareas, cobramos por <span className="font-bold text-gray-900">valor generado</span>, y en muchos casos trabajamos a <span className="font-bold text-gray-900">comisión</span>, alineando nuestros intereses con los del negocio.
+                            </p>
+                            <p>
+                                Si Growcom crece, es porque tu e-commerce crece.
+                                Ese es nuestro modelo.
+                                Y esa es nuestra diferencia.
+                            </p>
                         </div>
                     </div>
                     <div className="order-1 lg:order-2 flex justify-center">
@@ -31,9 +51,14 @@ export default function About() {
                 {/* Sobre Ti */}
                 <div className="mt-32 grid gap-16 lg:grid-cols-2 lg:items-center">
                     <div className="flex justify-center">
-                        {/* Placeholder for Personal Image */}
-                        <div className="relative h-80 w-80 overflow-hidden rounded-full bg-white shadow-2xl ring-1 ring-gray-900/5 flex items-center justify-center">
-                            <span className="text-gray-400 font-medium">Foto de Pepe</span>
+                        {/* Real Image of Pepe */}
+                        <div className="relative h-96 w-80 overflow-hidden rounded-2xl bg-white shadow-2xl ring-1 ring-gray-900/5">
+                            <Image
+                                src="/pepe.jpg"
+                                alt="Foto de Pepe"
+                                fill
+                                className="object-cover"
+                            />
                         </div>
                     </div>
                     <div>

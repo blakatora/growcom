@@ -11,11 +11,11 @@ export default function Hero() {
             </div>
 
             <div className="relative z-10 w-full max-w-4xl space-y-8">
-                <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-6xl md:text-7xl">
-                    Sistemas de Crecimiento para Negocios Digitales
+                <h1 className="text-xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+                    LA FÓRMULA GARANTIZADA DE 3 PILARES PARA ESCALAR UNA MARCA DE SALUD Y BIENESTAR A 7/8 CIFRAS EN 2026.
                 </h1>
                 <p className="mx-auto max-w-2xl text-lg text-gray-600 sm:text-xl">
-                    Transformamos tu operación actual en una estructura sólida y escalable capaz de facturar 7 cifras en 2026.
+                    Fórmula probada escalable que garantiza <span className="font-bold text-gray-900">duplicar la facturación mensual</span> de marcas e-commerce en menos de 90 días.
                 </p>
 
                 {/* Video Placeholder */}
