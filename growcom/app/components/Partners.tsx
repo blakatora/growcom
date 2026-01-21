@@ -15,9 +15,9 @@ export default function Partners() {
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="space-y-12">
                     <div>
-                        <h3 className="text-center text-sm font-semibold uppercase tracking-wider text-blue-600 mb-8">
+                        <h2 className="text-center text-2xl font-bold tracking-tight text-blue-600 mb-10 sm:text-3xl">
                             Nuestros Partners
-                        </h3>
+                        </h2>
                         <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10">
                             {partners.map((partner) => (
                                 <div
