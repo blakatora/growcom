@@ -51,7 +51,7 @@ export default function About() {
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
                     {/* Sobre Ti */}
-                    <div className="mt-32 grid gap-16 lg:grid-cols-2 lg:items-center">
+                    <div className="mt-16 sm:mt-32 grid gap-16 lg:grid-cols-2 lg:items-center text-center sm:text-left">
                         <div className="flex justify-center">
                             {/* Real Image of Pepe */}
                             <div className="relative h-96 w-80 overflow-hidden rounded-2xl bg-white shadow-2xl ring-1 ring-gray-900/5">
@@ -76,7 +76,7 @@ export default function About() {
                                 </p>
                             </div>
 
-                            <div className="mt-10">
+                            <div className="mt-10 flex justify-center sm:justify-start">
                                 <Link
                                     href="#calendly"
                                     className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-blue-600 px-8 py-4 font-bold text-white transition-all hover:scale-105 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-50"

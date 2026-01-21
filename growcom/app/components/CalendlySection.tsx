@@ -17,7 +17,7 @@ export default function CalendlySection() {
     }, []);
 
     return (
-        <section id="calendly" className="bg-white py-24">
+        <section id="calendly" className="bg-white py-12 sm:py-24">
             <div className="mx-auto max-w-4xl px-4 text-center">
                 <h2 className="mb-4 text-3xl font-bold text-gray-900 sm:text-4xl">
                     ¿Listo para escalar?
