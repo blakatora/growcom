@@ -92,7 +92,7 @@ export default function HowItWorks() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="mb-24 text-center">
                     <p className="text-blue-600 font-bold tracking-widest mb-3 uppercase text-sm">¿CÓMO FUNCIONA?</p>
-                    <h2 className="text-4xl md:text-6xl font-black text-[#1E3A8A] tracking-tight">Los Tres Pasos</h2>
+                    <h2 className="text-3xl md:text-5xl font-black text-[#1E3A8A] tracking-tight">Los Tres Pasos</h2>
                 </div>
 
                 <div className="relative">

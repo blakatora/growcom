@@ -10,35 +10,22 @@ export default function About() {
                 </div>
 
                 <div className="relative z-10 mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-                    <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-blue-600">
+                    <p className="text-blue-600 font-bold tracking-widest mb-3 uppercase text-sm">SOBRE NOSOTROS</p>
+                    <h2 className="text-3xl md:text-5xl font-black text-[#1E3A8A] tracking-tight">
                         Quienes somos
                     </h2>
                     <div className="mt-8 space-y-6 text-lg leading-8 text-gray-600">
                         <p>
-                            En Growcom no trabajamos como una agencia ni como un freelance.
-                            Somos <span className="font-bold text-gray-900">Growth Partners</span>: entramos en el negocio como socios de crecimiento y nos hacemos responsables del resultado.
+                            En Growcom actuamos como <span className="font-bold text-gray-900">growth partner</span> para marcas de ecommerce que buscan crecimiento inmediato con estructura, control y rentabilidad.
                         </p>
                         <p>
-                            Nuestro enfoque se basa en una <span className="font-bold text-gray-900">fórmula de crecimiento probada</span>.
-                            Primero generamos <span className="font-bold text-gray-900">contenido viral para captar atención real</span>.
-                            Después desarrollamos <span className="font-bold text-gray-900">contenido de alto valor</span>, adaptado a cada producto y a cada marca, porque no todos los e-commerce funcionan igual.
-                            And, solo entonces, construimos una <span className="font-bold text-gray-900">oferta de adquisición perfectamente estructurada</span> para convertir esa atención en clientes.
+                            Trabajamos junto a los equipos de cada marca para diseñar y ejecutar <span className="font-bold text-gray-900">sistemas de crecimiento 360º</span> que integran adquisición, conversión y retención dentro de una misma estrategia operativa.
                         </p>
                         <p>
-                            Todo esto se apoya en <span className="font-bold text-gray-900">sistemas de automatización digital</span> que nos permiten escalar la captación, optimizar la conversión y aumentar la retención de clientes en el tiempo.
+                            Nuestro enfoque se basa en la creación de valor, la <span className="font-bold text-gray-900">toma de decisiones basada en datos</span> y la implementación de procesos accionables desde el primer momento.
                         </p>
                         <p>
-                            Trabajamos con un <span className="font-bold text-gray-900">modelo 360</span>, lo que significa que no nos limitamos a una plataforma ni a servicios concretos.
-                            Analizamos y activamos todos los puntos clave del crecimiento del negocio, integrando estrategia, contenido, adquisición y retención dentro de un mismo sistema.
-                        </p>
-                        <p>
-                            Nuestra forma de fijar precios también es diferente:
-                            no cobramos por tareas, cobramos por <span className="font-bold text-gray-900">valor generado</span>, y en muchos casos trabajamos a <span className="font-bold text-gray-900">comisión</span>, alineando nuestros intereses con los del negocio.
-                        </p>
-                        <p>
-                            Si Growcom crece, es porque tu e-commerce crece.
-                            Ese es nuestro modelo.
-                            Y esa es nuestra diferencia.
+                            Colaboramos principalmente con <span className="font-bold text-gray-900">marcas de salud, bienestar y suplementación</span> que ya cuentan con tracción y necesitan escalar de forma predecible sin depender de freelancers, agencias tradicionales o acciones aisladas.
                         </p>
                     </div>
                 </div>

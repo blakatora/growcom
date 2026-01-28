@@ -1,6 +1,22 @@
+"use client";
+
 import Link from "next/link";
+import { useRef, useState } from "react";
 
 export default function Hero() {
+    const videoRef = useRef<HTMLVideoElement>(null);
+    const [isPlaying, setIsPlaying] = useState(false);
+
+    const togglePlay = () => {
+        if (videoRef.current) {
+            if (isPlaying) {
+                videoRef.current.pause();
+            } else {
+                videoRef.current.play();
+            }
+        }
+    };
+
     return (
         <section className="relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden bg-white px-4 pt-20 text-center sm:px-6 lg:px-8">
             {/* Background Gradient */}
@@ -18,17 +34,32 @@ export default function Hero() {
                     Fórmula probada escalable que garantiza <span className="font-bold text-gray-900">duplicar la facturación mensual</span> de marcas e-commerce en menos de 90 días.
                 </p>
 
-                {/* Video Placeholder */}
-                <div className="relative mx-auto aspect-video w-full max-w-3xl overflow-hidden rounded-2xl border border-gray-200 bg-gray-50 shadow-2xl shadow-blue-900/10 group">
-                    <div className="absolute inset-0 flex items-center justify-center">
-                        <button className="group relative flex h-20 w-20 items-center justify-center rounded-full bg-blue-600/10 backdrop-blur-sm transition-all duration-300 hover:scale-110 hover:bg-blue-600/20">
-                            <div className="h-0 w-0 border-t-[12px] border-t-transparent border-l-[20px] border-l-blue-600 border-b-[12px] border-b-transparent ml-1"></div>
-                            <span className="absolute -inset-4 rounded-full border border-blue-600/30 animate-ping opacity-75"></span>
-                        </button>
-                    </div>
-                    <div className="absolute bottom-4 left-4 right-4 text-sm text-gray-500">
-                        Video explicativo próximamente
-                    </div>
+                {/* Video Container */}
+                <div
+                    className="relative mx-auto aspect-video w-full max-w-4xl overflow-hidden rounded-2xl border border-gray-100 bg-black shadow-2xl shadow-blue-900/20 group cursor-pointer"
+                    onClick={togglePlay}
+                >
+                    <video
+                        ref={videoRef}
+                        className="w-full h-full object-cover"
+                        playsInline
+                        preload="metadata"
+                        onPlay={() => setIsPlaying(true)}
+                        onPause={() => setIsPlaying(false)}
+                        controls={isPlaying}
+                    >
+                        <source src="https://hpo4phjatawerzq0.public.blob.vercel-storage.com/V2.mp4" type="video/mp4" />
+                        Tu navegador no soporta el formato de video.
+                    </video>
+
+                    {/* Custom Play Overlay */}
+                    {!isPlaying && (
+                        <div className="absolute inset-0 flex items-center justify-center bg-black/20 backdrop-blur-[2px] transition-all duration-300 group-hover:bg-black/30">
+                            <div className="relative flex h-24 w-36 items-center justify-center rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 shadow-2xl transition-all duration-500 group-hover:scale-110 group-hover:bg-white/20">
+                                <div className="h-0 w-0 border-t-[15px] border-t-transparent border-l-[25px] border-l-white border-b-[15px] border-b-transparent ml-2"></div>
+                            </div>
+                        </div>
+                    )}
                 </div>
 
                 {/* CTA Button */}

@@ -14,8 +14,9 @@ export default function Partners() {
         <section className="bg-white py-12 border-y border-gray-100">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="space-y-12">
-                    <div>
-                        <h2 className="text-center text-2xl font-bold tracking-tight text-blue-600 mb-10 sm:text-3xl">
+                    <div className="text-center">
+                        <p className="text-blue-600 font-bold tracking-widest mb-3 uppercase text-sm">COLABORADORES</p>
+                        <h2 className="text-3xl md:text-5xl font-black text-[#1E3A8A] tracking-tight mb-12">
                             Nuestros Partners
                         </h2>
                         <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10">
