@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Partners from "./components/Partners";
 import About from "./components/About";
+import HowItWorks from "./components/HowItWorks";
 import CalendlySection from "./components/CalendlySection";
 import Footer from "./components/Footer";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Partners />
       <About />
+      <HowItWorks />
       <CalendlySection />
       <Footer />
     </main>
