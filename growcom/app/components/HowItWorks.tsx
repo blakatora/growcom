@@ -124,17 +124,17 @@ export default function HowItWorks() {
                                     </div>
 
                                     {/* Content Column 1 */}
-                                    <div className={`w-full md:w-[42%] flex flex-col ${isEven ? "md:items-start md:text-left" : "order-2 md:order-1 items-start text-left md:mt-0 mt-8"}`}>
+                                    <div className={`w-full md:w-[42%] flex flex-col ${isEven ? "items-center md:items-start text-center md:text-left" : "order-2 md:order-1 items-center md:items-start text-center md:text-left md:mt-0 mt-8"}`}>
                                         {isEven ? (
                                             <div className="space-y-4">
-                                                <p className="text-base md:text-lg text-gray-600 leading-relaxed">
+                                                <p className="text-base md:text-lg text-gray-600 leading-relaxed md:max-w-none max-w-sm">
                                                     {step.description}
                                                 </p>
                                             </div>
                                         ) : (
                                             <div className="space-y-4 w-full">
                                                 {step.items.map((item, i) => (
-                                                    <div key={i} className="flex items-center gap-3 group">
+                                                    <div key={i} className="flex items-center justify-center md:justify-start gap-3 group">
                                                         <div className="flex-shrink-0 p-2 bg-blue-50 text-blue-600 rounded-lg group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
                                                             <Icon name={item.icon} />
                                                         </div>
@@ -146,17 +146,17 @@ export default function HowItWorks() {
                                     </div>
 
                                     {/* Content Column 2 */}
-                                    <div className={`w-full md:w-[42%] flex flex-col ${!isEven ? "md:items-start md:text-left md:mt-0 mt-8" : "order-1 md:order-2 md:mt-0 mt-8 items-start text-left"}`}>
+                                    <div className={`w-full md:w-[42%] flex flex-col ${!isEven ? "items-center md:items-start text-center md:text-left md:mt-0 mt-8" : "order-1 md:order-2 md:mt-0 mt-8 items-center md:items-start text-center md:text-left"}`}>
                                         {!isEven ? (
                                             <div className="space-y-4">
-                                                <p className="text-base md:text-lg text-gray-600 leading-relaxed">
+                                                <p className="text-base md:text-lg text-gray-600 leading-relaxed md:max-w-none max-w-sm">
                                                     {step.description}
                                                 </p>
                                             </div>
                                         ) : (
                                             <div className="space-y-4 w-full">
                                                 {step.items.map((item, i) => (
-                                                    <div key={i} className="flex items-center gap-3 group">
+                                                    <div key={i} className="flex items-center justify-center md:justify-start gap-3 group">
                                                         <div className="flex-shrink-0 p-2 bg-blue-50 text-blue-600 rounded-lg group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
                                                             <Icon name={item.icon} />
                                                         </div>
