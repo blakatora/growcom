@@ -35,10 +35,7 @@ export default function Hero() {
                 </p>
 
                 {/* Video Container */}
-                <div
-                    className="relative mx-auto aspect-video w-full max-w-4xl overflow-hidden rounded-2xl border border-gray-100 bg-black shadow-2xl shadow-blue-900/20 group cursor-pointer"
-                    onClick={togglePlay}
-                >
+                <div className="relative mx-auto aspect-video w-full max-w-4xl overflow-hidden rounded-2xl border border-gray-100 bg-black shadow-2xl shadow-blue-900/20 group cursor-pointer">
                     <video
                         ref={videoRef}
                         className="w-full h-full object-cover"
@@ -54,7 +51,10 @@ export default function Hero() {
 
                     {/* Custom Play Overlay */}
                     {!isPlaying && (
-                        <div className="absolute inset-0 flex items-center justify-center bg-black/20 backdrop-blur-[2px] transition-all duration-300 group-hover:bg-black/30">
+                        <div
+                            className="absolute inset-0 flex items-center justify-center bg-black/20 backdrop-blur-[2px] transition-all duration-300 group-hover:bg-black/30"
+                            onClick={togglePlay}
+                        >
                             <div className="relative flex h-24 w-36 items-center justify-center rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 shadow-2xl transition-all duration-500 group-hover:scale-110 group-hover:bg-white/20">
                                 <div className="h-0 w-0 border-t-[15px] border-t-transparent border-l-[25px] border-l-white border-b-[15px] border-b-transparent ml-2"></div>
                             </div>
