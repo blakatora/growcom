@@ -16,8 +16,8 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className="relative w-full bg-white py-8 border-b border-gray-50 z-50">
-            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-center md:justify-between items-center gap-6 md:gap-0">
+        <nav className="relative w-full bg-white pt-3 pb-3 md:py-8 md:border-b border-gray-50 z-50">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-center md:justify-between">
                 <Link href="/" className="flex items-center">
                     <Image
                         src="/logo-light.png"
