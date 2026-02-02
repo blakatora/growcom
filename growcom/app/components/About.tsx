@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <section className="text-gray-900 border-t border-gray-100">
+        <section id="about" className="text-gray-900 border-t border-gray-100">
             {/* Quienes Somos */}
             <div className="relative py-24 bg-white overflow-hidden">
                 {/* Background Blobs similar to Hero */}
@@ -10,8 +10,8 @@ export default function About() {
                 </div>
 
                 <div className="relative z-10 mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-                    <p className="text-blue-600 font-bold tracking-widest mb-3 uppercase text-sm">SOBRE NOSOTROS</p>
-                    <h2 className="text-3xl md:text-5xl font-black text-[#1E3A8A] tracking-tight">
+                    <p className="text-[#464189] font-bold tracking-widest mb-3 uppercase text-sm">SOBRE NOSOTROS</p>
+                    <h2 className="text-3xl md:text-5xl font-black text-[#464189] tracking-tight">
                         Quienes somos
                     </h2>
                     <div className="mt-8 space-y-6 text-lg leading-8 text-gray-600">

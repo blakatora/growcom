@@ -88,11 +88,11 @@ const Icon = ({ name }: { name: string }) => {
 
 export default function HowItWorks() {
     return (
-        <section className="py-24 bg-white overflow-hidden">
+        <section id="how-it-works" className="py-24 bg-white overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="mb-24 text-center">
-                    <p className="text-blue-600 font-bold tracking-widest mb-3 uppercase text-sm">¿CÓMO FUNCIONA?</p>
-                    <h2 className="text-3xl md:text-5xl font-black text-[#1E3A8A] tracking-tight">Los Tres Pasos</h2>
+                    <p className="text-[#464189] font-bold tracking-widest mb-3 uppercase text-sm">¿CÓMO FUNCIONA?</p>
+                    <h2 className="text-3xl md:text-5xl font-black text-[#464189] tracking-tight">Los Tres Pasos</h2>
                 </div>
 
                 <div className="relative">

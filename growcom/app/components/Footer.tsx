@@ -1,13 +1,18 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
     return (
         <footer className="bg-white border-t border-gray-100 py-12">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
                 <div className="flex items-center gap-2">
-                    <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
-                        Growcom
-                    </span>
+                    <Image
+                        src="/logo-light.png"
+                        alt="Growcom Logo"
+                        width={400}
+                        height={120}
+                        className="h-16 md:h-24 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                    />
                 </div>
 
                 <div className="text-sm text-gray-500">

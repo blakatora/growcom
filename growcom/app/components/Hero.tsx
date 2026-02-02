@@ -18,7 +18,7 @@ export default function Hero() {
     };
 
     return (
-        <section className="relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden bg-white px-4 pt-20 text-center sm:px-6 lg:px-8">
+        <section className="relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden bg-white px-4 pt-24 pb-32 text-center sm:px-6 lg:px-8">
             {/* Background Gradient */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl opacity-30 pointer-events-none">
                 <div className="absolute top-20 left-20 w-72 h-72 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
@@ -26,8 +26,8 @@ export default function Hero() {
                 <div className="absolute -bottom-8 left-1/2 w-72 h-72 bg-indigo-200 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-4000"></div>
             </div>
 
-            <div className="relative z-10 w-full max-w-4xl space-y-8">
-                <h1 className="text-xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+            <div className="relative z-10 w-full max-w-5xl space-y-12">
+                <h1 className="text-xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-5xl mb-10">
                     LA FÓRMULA GARANTIZADA DE 3 PILARES PARA ESCALAR UNA MARCA DE SALUD Y BIENESTAR A 7/8 CIFRAS EN 2026.
                 </h1>
                 <p className="mx-auto max-w-2xl text-lg text-gray-600 sm:text-xl">
@@ -35,7 +35,7 @@ export default function Hero() {
                 </p>
 
                 {/* Video Container */}
-                <div className="relative mx-auto aspect-video w-full max-w-4xl overflow-hidden rounded-2xl border border-gray-100 bg-black shadow-2xl shadow-blue-900/20 group cursor-pointer">
+                <div className="relative mx-auto aspect-video w-full max-w-7xl overflow-hidden rounded-3xl border border-gray-100 bg-black shadow-2xl shadow-blue-900/10 group cursor-pointer group">
                     <video
                         ref={videoRef}
                         className="w-full h-full object-cover"
@@ -66,7 +66,7 @@ export default function Hero() {
                 <div className="pt-8">
                     <Link
                         href="#calendly"
-                        className="inline-flex h-14 items-center justify-center rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 px-8 text-lg font-bold text-white shadow-lg shadow-blue-500/20 transition-all hover:scale-105 hover:shadow-blue-500/40"
+                        className="inline-flex h-16 items-center justify-center rounded-full bg-[#464189] px-10 text-lg font-black uppercase tracking-widest text-white shadow-2xl shadow-indigo-500/20 transition-all hover:scale-105 hover:bg-[#37E693] hover:shadow-[#37E693]/40"
                     >
                         Reserva una hora
                     </Link>
