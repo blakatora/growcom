@@ -45,4 +45,8 @@ export default function Hero() {
       </div>
     </section>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9122040 (Actualiza Hero para usar video de YouTube)
